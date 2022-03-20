@@ -1,0 +1,103 @@
+name: karaul
+description: Panic Button
+
+publish_to: 'none'
+
+version: 1.1.8+7
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+  
+  hive: ^2.0.5
+  intl: ^0.17.0
+  http: ^0.13.4
+  sizer: ^2.0.15
+  provider: ^6.0.2
+  geocoding: ^2.0.2
+  geolocator: ^7.7.1
+  hive_flutter: ^1.1.0
+  flutter_svg: ^1.0.3
+  path_provider: ^2.0.9
+  url_launcher: ^6.0.20
+  audioplayers: ^0.20.1
+  in_app_review: ^2.0.4
+  search_page: ^2.0.0+1
+  adaptive_theme: ^2.3.0
+  flutter_bounce: ^1.1.0
+  page_transition: ^2.0.5
+  cupertino_icons: ^1.0.4
+  quick_actions: ^0.6.0+9
+  shared_preferences: ^2.0.13
+  fluttercontactpicker: ^4.6.0
+  google_maps_flutter: ^2.1.1
+  flutter_native_splash: ^2.0.5
+  firebase_dynamic_links: ^4.0.6
+  flutter_launcher_icons: ^0.9.2
+  mask_text_input_formatter: ^2.1.0
+
+  animated_splash_screen: 
+    git: https://github.com/clean-code-dev/animated_splash_screen.git
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.4
+
+flutter_icons:
+  android: 'launcher_icon'
+  ios: false
+  image_path: 'assets/png/appIcon.png'
+
+flutter_native_splash:
+  ios: false
+  web: false
+  color: '#F6F7FB'
+  image: ''
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/audio/
+     - assets/flags/
+     - assets/png/
+     - assets/svg/
+     
+  fonts:
+    - family: GothamProBlack
+      fonts:
+        - asset: fonts/GothaProBla.otf
+    - family: GothamProBold
+      fonts:
+        - asset: fonts/GothaProBol.otf
+    - family: GothamProMedium
+      fonts:   
+        - asset: fonts/GothaProMed.otf
+    - family: GothamProRegular
+      fonts: 
+        - asset: fonts/GothaProReg.otf
+    - family: GothamProLight
+      fonts: 
+        - asset: fonts/GothaProLig.otf
+    - family: KrIcons
+      fonts:
+       - asset: fonts/icons/KrIcons.ttf
+    - family: SettingsIcons
+      fonts:
+       - asset: fonts/icons/SettingsIcons.ttf
+    - family: GeoIcon
+      fonts:
+       - asset: fonts/icons/GeoIcon.ttf
+    - family: SearchIcons
+      fonts:
+       - asset: fonts/icons/SearchIcons.ttf
+           
+flutter_intl:
+  enabled: true

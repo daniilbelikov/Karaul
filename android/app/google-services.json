@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "845663113601",
+    "project_id": "karaul-adf17",
+    "storage_bucket": "karaul-adf17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845663113601:android:7f7bae94e1fe944e8d5880",
+        "android_client_info": {
+          "package_name": "dev.belikov.karaul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845663113601-puqn8s8nh2p5lee58q73re618v2s0mt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzJi5s_YwUgZKeJDbsFEpew5lK60egIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845663113601-puqn8s8nh2p5lee58q73re618v2s0mt5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "845663113601-nfll8jtaqkdnurtb8adrdga8nv36cqf2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.belikov.KaraulApp",
+                "app_store_id": "1564064778"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
