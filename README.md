@@ -14,4 +14,4 @@ Technology Stack: VSCode, Flutter SDK, provider, Hive, Sizer, Intl, Http, Google
 Created by [@daniilbelikov](https://github.com/daniilbelikov).
 
 ## Preview:
-<img src="./Preview/preview.png"/>
+<img src="./preview/preview.png"/>
