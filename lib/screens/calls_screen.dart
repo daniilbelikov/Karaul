@@ -45,7 +45,7 @@ class _CallsScreenState extends State<CallsScreen>
       );
     }
 
-    SchedulerBinding.instance!.addPostFrameCallback((_) async {
+    SchedulerBinding.instance.addPostFrameCallback((_) async {
       final permission = await Geolocator.checkPermission();
       if (permission == LocationPermission.denied && Platform.isAndroid) {
         callsProvider.showPermissonDialog(
